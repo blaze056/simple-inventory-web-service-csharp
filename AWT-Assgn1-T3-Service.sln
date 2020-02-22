@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWT-Assgn1-T3-Service", "AWT-Assgn1-T3-Service\AWT-Assgn1-T3-Service.csproj", "{948E90B8-8224-432D-ABA2-B3B15EC61B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClient", "WebClient\WebClient.csproj", "{655C5431-02C2-410F-8A5A-21EEE9EBD261}"
+	ProjectSection(ProjectDependencies) = postProject
+		{948E90B8-8224-432D-ABA2-B3B15EC61B88} = {948E90B8-8224-432D-ABA2-B3B15EC61B88}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948E90B8-8224-432D-ABA2-B3B15EC61B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948E90B8-8224-432D-ABA2-B3B15EC61B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948E90B8-8224-432D-ABA2-B3B15EC61B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948E90B8-8224-432D-ABA2-B3B15EC61B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655C5431-02C2-410F-8A5A-21EEE9EBD261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655C5431-02C2-410F-8A5A-21EEE9EBD261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655C5431-02C2-410F-8A5A-21EEE9EBD261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655C5431-02C2-410F-8A5A-21EEE9EBD261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09350170-12C6-4056-99D3-7C507D468FBC}
+	EndGlobalSection
+EndGlobal
